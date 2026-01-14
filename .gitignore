@@ -1,0 +1,40 @@
+# ---------------------------
+# Virtual Environment
+# ---------------------------
+venv/
+.venv/
+
+# ---------------------------
+# Dataset & Generated Data
+# ---------------------------
+dataset/
+extracted_keypoints/
+results/
+checkpoints/
+
+# ---------------------------
+# Python Cache
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---------------------------
+# Trained Models (old ones)
+# ---------------------------
+bilstm_model.h5
+bilstm_model.keras
+
+# ---------------------------
+# OS / Editor Files
+# ---------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---------------------------
+# Logs
+# ---------------------------
+*.log
